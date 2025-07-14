@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  color: #2e8b57;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+ul {
+  line-height: 2;
+}
+
+.hobby-image {
+  border-radius: 15px;
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #2e8b57;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e6f7e6;
+}
+
+a {
+  color: #2e8b57;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #1e5c3a;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1e5c3a;
+}
+
+#mensagem {
+  text-align: center;
+  font-style: italic;
+  margin: 20px;
+  padding: 15px;
+  background-color: #e6f7e6;
+  border-radius: 5px;
+  display: none;
+}
+
+table img {
+  width: 100px;
+  border-radius: 5px;
+}
