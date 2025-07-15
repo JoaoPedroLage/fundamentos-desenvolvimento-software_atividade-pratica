@@ -4,64 +4,133 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Minha Página Pessoal</title>
+  <title>João Pedro Lage - Full Stack Developer</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <h1>João da Silva</h1>
+  <h1>João Pedro Pedro de Oliveira Lage</h1>
 
-  <p>
-    Olá! Meu nome é João da Silva, tenho 25 anos e moro na cidade de São Paulo.
-    Sou formado em Análise e Desenvolvimento de Sistemas e atualmente trabalho
-    como desenvolvedor front-end. Tenho grande interesse por tecnologia,
-    viagens e fotografia. Adoro aprender coisas novas e compartilhar
-    conhecimentos com outras pessoas.
-  </p>
+  <p class="headline">Full Stack Developer</p>
+
+  <section class="professional-summary">
+    <h2>Sobre Mim</h2>
+    <p>
+      Desenvolvedor Full Stack com mais de 3 anos de experiência no desenvolvimento de aplicações web e mobile
+      utilizando
+      React Native, React, Next.js, Nest.js e TypeScript.
+      <br>
+      Busco oportunidades desafiadoras em empresas inovadoras e em
+      crescimento,
+      onde possa contribuir com projetos que façam diferença na vida das pessoas. Comprometido com aprendizado contínuo
+      e
+      atualização nas mais recentes tecnologias.
+    </p>
+  </section>
 
   <button id="botaoMensagem">Clique para ver uma mensagem!</button>
   <div id="mensagem"></div>
 
-  <h2>Meus Hobbies Favoritos</h2>
-  <ul>
-    <li>Fotografia de paisagens</li>
-    <li>Programação de jogos simples</li>
-    <li>Ciclismo aos finais de semana</li>
-  </ul>
+  <section class="skills">
+    <h2>Habilidades Técnicas</h2>
+    <ul>
+      <li><strong>Front-end:</strong> React, React Native, Next.js, HTML5, CSS3, JavaScript (ES6+), TypeScript</li>
+      <li><strong>Backend:</strong> Nest.js, TypeScript, PHP, Laravel, Python, Node.js</li>
+      <li><strong>Banco de Dados:</strong> SQL (MySQL), NoSQL (MongoDB)</li>
+      <li><strong>Cloud:</strong> Amazon Web Services (AWS), Google Cloud</li>
+      <li><strong>Outras:</strong> Docker, Git & GitHub, Programação Orientada a Objetos (OOP)</li>
+    </ul>
+  </section>
 
-  <img src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
-    alt="Fotografia de paisagem" class="hobby-image" />
+  <section class="experience">
+    <h2>Experiência Profissional</h2>
+    <div class="job">
+      <h3>Desenvolvedor de Software Júnior - Flashvolve (São Paulo, Brasil)</h3>
+      <ul>
+        <li>Desenvolvimento de chatbots self-service</li>
+        <li>Criação de APIs escaláveis com CRUD</li>
+        <li>Desenvolvimento front-end e back-end de websites</li>
+        <li>Deploy de aplicações no Google Cloud e AWS</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>Engenheiro de Software Júnior - Abas Online (Minas Gerais, Brasil)</h3>
+      <ul>
+        <li>Desenvolvimento e manutenção de software Full-Stack para sistema de gestão de condomínios</li>
+        <li>Criação de interfaces de usuário intuitivas e responsivas (Angular)</li>
+        <li>Implementação de requisitos dos clientes em colaboração com a equipe de produto</li>
+        <li>Testes e depuração de código para garantir qualidade e confiabilidade</li>
+        <li>Manutenção de documentação técnica de software</li>
+      </ul>
+    </div>
+  </section>
 
-  <h2>Países que gostaria de visitar</h2>
-  <table>
-    <tr>
-      <th>País</th>
-      <th>Imagem</th>
-    </tr>
-    <tr>
-      <td>Japão</td>
-      <td><img
-          src="https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
-          alt="Japão" />
-      </td>
-    </tr>
-    <tr>
-      <td>Itália</td>
-      <td><img
-          src="https://images.unsplash.com/photo-1533676802871-eca1ae998cd5?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
-          alt="Itália" />
-      </td>
-    </tr>
-    <tr>
-      <td>Canadá</td>
-      <td><img
-          src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
-          alt="Canadá" />
-      </td>
-    </tr>
-  </table>
+  <section class="education">
+    <h2>Formação Acadêmica</h2>
+    <ul>
+      <li><strong>Bacharelado em Engenharia de Software:</strong> Uninter (em andamento)</li>
+      <li><strong>Desenvolvimento Web Full Stack:</strong> Trybe (concluído em 09/2022)</li>
+      <li><strong>Bacharelado em Engenharia de Controle e Automação:</strong> IFMG (incompleto)</li>
+      <li><strong>Ensino Médio Integrado com Técnico em Eletrônica:</strong> IFMG (concluído em 03/2018)</li>
+    </ul>
+  </section>
 
-  <p>Visite meu site de tecnologia favorito: <a href="https://www.tecmundo.com.br" target="_blank">TecMundo</a></p>
+  <section class="hobbies">
+    <h2>Hobbies e Interesses</h2>
+
+    <ul>
+      <li>Fotografia de paisagens</li>
+      <li>Programação de jogos simples</li>
+      <li>Ciclismo aos finais de semana</li>
+    </ul>
+
+    <img
+      src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+      alt="Desenvolvimento de software" class="hobby-image" />
+  </section>
+
+
+  <section class="countries">
+
+    <h2>Países que gostaria de visitar</h2>
+    <table>
+      <tr>
+        <th>País</th>
+        <th>Imagem</th>
+      </tr>
+      <tr>
+        <td>Japão</td>
+        <td><img
+            src="https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+            alt="Japão" />
+        </td>
+      </tr>
+      <tr>
+        <td>Itália</td>
+        <td><img
+            src="https://images.unsplash.com/photo-1533676802871-eca1ae998cd5?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+            alt="Itália" />
+        </td>
+      </tr>
+      <tr>
+        <td>Canadá</td>
+        <td><img
+            src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+            alt="Canadá" />
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="contact">
+    <h2>Contato</h2>
+    <p>Vamos nos conectar! Teremos uma boa sinergia de trabalho.</p>
+    <ul>
+      <li><strong>GitHub:</strong> <a href="https://github.com/JoaoPedroLage"
+          target="_blank">github.com/JoaoPedroLage</a></li>
+      <li><strong>Email:</strong> <a href="mailto:joaopedro.lage@outlook.com">joaopedro.lage@outlook.com</a></li>
+    </ul>
+  </section>
 
   <script src="script.js"></script>
 </body>
